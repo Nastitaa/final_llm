@@ -1,0 +1,75 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+*.egg
+dist/
+build/
+develop-eggs/
+downloads/
+eggs/
+parts/
+var/
+*.manifest
+*.spec
+
+# Виртуальные окружения (uv, venv, .venv)
+.venv/
+venv/
+ENV/
+env/
+.venv-*/
+uv.lock
+
+# Переменные окружения (секреты)
+.env
+.env.local
+.env.*.local
+
+# Базы данных
+*.db
+*.sqlite
+*.sqlite3
+
+# Логи и отладочные файлы
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+# Отчеты о покрытии и тестировании
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.mypy_cache/
+.ruff_cache/
+
+# Файлы IDE и редакторов
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+*.pid
+
+# Docker
+.dockerignore
+
+# Временные файлы
+*.tmp
+*.temp
+*.bak
+
+# Файлы компиляции зависимостей (uv)
+requirements.txt  # генерируется uv pip compile, не должен быть в репозитории
