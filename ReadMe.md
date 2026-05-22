@@ -202,14 +202,10 @@ uv run pytest tests/ -v
 ![RabbitMQ queues](screenshots/rabbitmq_queues.png)
 *Очередь `celery` с активными сообщениями и consumer'ом.*
 
-### 8. Redis (ключ токена)
-![Redis keys](screenshots/redis_keys.png)
-*Ключ `token:123456789` хранит JWT.*
-
-### 9. Успешное прохождение тестов auth
+### 8. Успешное прохождение тестов auth
 ![Tests passed](screenshots/tests_passed_auth.png)
 
-### 10. Успешное прохождение тестов bot
+### 9. Успешное прохождение тестов bot
 ![Tests passed](screenshots/tests_passed_bot.png)
 
 ## Структура каталогов
